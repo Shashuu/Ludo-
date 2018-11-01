@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ludo</title>
+	<link rel="stylesheet" type="text/css" href="E:\Web\Ludo.css">
+</head>
+<body>	
+	
+
+	<table style="border-spacing: 0px; border-color: black; border-collapse: collapse;" >
+		<tr style="border: 0px; border-color: black;" id="one">
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td class="house1"> </td>
+			<td class="house1"> </td>
+			<td class="house1"> </td>
+			<td class="house1"> </td>
+			<td class="house1"> </td>
+			<td class="house1"> </td>
+			<td class ="way" id="A1"> </td>
+			<td class="core_entrance" id="A2"> </td>
+			<td class="way" id="A3"> </td>
+			<td class="house2"> </td>
+			<td class="house2"> </td>
+			<td class="house2"> </td>
+			<td class="house2"> </td>
+			<td class="house2"> </td>
+			<td class="house2"> </td>
+
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+		</tr>
+		<tr style="border: 0px; border-color: black;" id="two">
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+
+			<td class="house1"> </td>
+			<td class="house1"> </td>
+			<td class="house1"> </td>
+			<td class="house1"> </td>
+			<td class="house1"> </td>
+			<td class="house1"> </td>
+			<td class ="way" id="A52"> </td>
+			<td class="in_way" id = "A72"> </td>
+			<td class="in_way" id="A4"> </td>
+			<td class="house2"> </td>
+			<td class="house2"> </td>
+			<td class="house2"> </td>
+			<td class="house2"> </td>
+			<td class="house2"> </td>
+			<td class="house2"> </td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+		</tr>
+		<tr style="border: 0px; border-color: black;" id="three">
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+
+			<td class="house1"> </td>
+			<td class="house1"> </td>
+			<td class="house1"> </td>
+			<td class="house1"> </td>
+			<td class="house1"> </td>
+			<td class="house1"> </td>
+			<td class ="way" id="A51"> </td>
+			<td class="in_way" id="A73"> </td>
+			<td class="way" id="A5"> </td>
+			<td class="house2"> </td>
+			<td class="house2"> </td>
+			<td class="house2"> </td>
+			<td class="house2"> </td>
+			<td class="house2"> </td>
+			<td class="house2"> </td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+		</tr>
+		<tr style="border: 0px; border-color: black;" id="four">
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+
+			<td class="house1"> </td>
+			<td class="house1"> </td>
+			<td class="house1"> </td>
+			<td class="house1"> </td>
+			<td class="house1"> </td>
+			<td class="house1"> </td>
+			<td class ="way" id="A50"> </td>
+			<td class="in_way" id="A74"> </td>
+			<td class="way" id="A6"> </td>
+			<td class="house2"> </td>
+			<td class="house2"> </td>
+			<td class="house2"> </td>
+			<td class="house2"> </td>
+			<td class="house2"> </td>
+			<td class="house2"> </td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+		</tr>
+		<tr style="border: 0px; border-color: black;" id="five">
+
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+
+			<td class="house1" > </td>
+			<td class="house1" > </td>
+			<td class="house1" > </td>
+			<td class="house1"> </td>
+			<td class="house1"> </td>
+			<td class="house1"> </td>
+			<td class ="way" id="A49"> </td>
+			<td class="in_way" id="A75"> </td>
+			<td class="way" id="A7"> </td>
+			<td class="house2"> </td>
+			<td class="house2"> </td>
+			<td class="house2"> </td>
+			<td class="house2"> </td>
+			<td class="house2"> </td>
+			<td class="house2"> </td>
+
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+		</tr>
+		<tr style="border: 0px; border-color: black;" id="six">
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+
+			<td class="house1"> </td>
+			<td class="house1"> </td>
+			<td class="house1"> </td>
+			<td class="house1"> </td>
+			<td class="house1"> </td>
+			<td class="house1"> </td>
+			<td class ="way" id="A48"> </td>
+			<td class="in_way" id="A76"> </td>
+			<td class="way" id="A8"> </td>
+			<td class="house2"> </td>
+			<td class="house2"> </td>
+			<td class="house2"> </td>
+			<td class="house2"> </td>
+			<td class="house2"> </td>
+			<td class="house2"> </td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+		</tr>
+		<tr style="border: 0px; border-color: black;" id="seven">
+			<td> </td>
+			<td> </td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			
+			<td class="way" id="A42"> </td>
+			<td class="way_player2" id="A43"> </td>
+			<td class="way" id="A44"> </td>
+			<td class="way" id="A45"> </td>
+			<td class="way" id="A46"> </td>
+			<td class="way" id="A47"> </td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td class="way" id="A9"> </td>
+			<td class="way" id="A10"> </td>
+			<td class="way" id="A11"> </td>
+			<td class="way" id="A12"> </td>
+			<td class="way" id="A13"> </td>
+			<td class="way" id="A14"> </td>
+			<td> </td>
+			<td> </td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+		</tr>
+		<tr style="border: 0px; border-color: black;" id="eight">
+			<td> </td>
+			<td> </td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			
+			<td class="way" id="A41"> </td>
+			<td class="way_player2" id="A741"> </td>
+			<td class="way_player2" id="A742"> </td>
+			<td class="way_player2" id="A743"> </td>
+			<td class="way_player2" id="A744"> </td>
+			<td class="way_player2" id="A745"> </td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td></td>
+			<td class="way_player4" id="A719"> </td>
+			<td class="way_player4" id="A718"> </td>
+			<td class="way_player4" id="A717"> </td>
+			<td class="way_player4" id="A716"> </td>
+			<td class="way_player4" id="A715"> </td>
+			<td class="way" id="A15"> </td>
+			<td> </td>
+			<td> </td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+		</tr>
+		<tr style="border: 0px; border-color: black;" id="nine">
+			<td> </td>
+			<td> </td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			
+			<td class="way" id="A40"> </td>
+			<td class="way" id="A39"> </td>
+			<td class="way" id="A38"> </td>
+			<td class="way" id="A37"> </td>
+			<td class="way" id="A36"> </td>
+			<td class="way" id="A35"> </td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td></td>
+			<td class="way" id="A21"> </td>
+			<td class="way" id="A20"></td>
+			<td class="way" id="A19"> </td>
+			<td class="way" id="A18"> </td>
+			<td class="way_player4" id="A17"> </td>
+			<td class="way" id="A16"> </td>
+			<td> </td>
+			<td> </td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+		</tr>
+		<tr style="border: 0px; border-color: black;" id="ten">
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td class="house3"> </td>
+			<td class="house3"> </td>
+			<td class="house3"> </td>
+			<td class="house3"> </td>
+			<td class="house3"> </td>
+			<td class="house3"> </td>
+			<td class ="way" id="A34"> </td>
+			<td class="way_player3" id="A732"> </td>
+			<td class="way" id="A22"> </td>
+			<td class="house4"> </td>
+			<td class="house4"> </td>
+			<td class="house4"> </td>
+			<td class="house4"> </td>
+			<td class="house4"> </td>
+			<td class="house4"> </td>
+
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+		</tr>
+		<tr style="border: 0px; border-color: black;" id="eleven">
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td class="house3"> </td>
+			<td class="house3"> </td>
+			<td class="house3"> </td>
+			<td class="house3"> </td>
+			<td class="house3"> </td>
+			<td class="house3"> </td>
+			<td class ="way" id="A33"> </td>
+			<td class="way_player3" id="A731"> </td>
+			<td class="way" id="A41" id="A23"> </td>
+			<td class="house4"> </td>
+			<td class="house4"> </td>
+			<td class="house4"> </td>
+			<td class="house4"> </td>
+			<td class="house4"> </td>
+			<td class="house4"> </td>
+
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+		</tr>
+		<tr style="border: 0px; border-color: black;" id="twelve">
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td class="house3"> </td>
+			<td class="house3"> </td>
+			<td class="house3"> </td>
+			<td class="house3"> </td>
+			<td class="house3"> </td>
+			<td class="house3"> </td>
+			<td class ="way" id="A32"> </td>
+			<td class="way_player3" id="A730"> </td>
+			<td class="way" id="A24"> </td>
+			<td class="house4"> </td>
+			<td class="house4"> </td>
+			<td class="house4"> </td>
+			<td class="house4"> </td>
+			<td class="house4"> </td>
+			<td class="house4"> </td>
+
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+		</tr>
+		<tr style="border: 0px; border-color: black;" id="thirteen">
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td class="house3"> </td>
+			<td class="house3"> </td>
+			<td class="house3"> </td>
+			<td class="house3"> </td>
+			<td class="house3"> </td>
+			<td class="house3"> </td>
+			<td class ="way" id="A31"> </td>
+			<td class="way_player3" id="A729"> </td>
+			<td class="way" id="A25"> </td>
+			<td class="house4"> </td>
+			<td class="house4"> </td>
+			<td class="house4"> </td>
+			<td class="house4"> </td>
+			<td class="house4"> </td>
+			<td class="house4"> </td>
+
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+		</tr>
+		<tr style="border: 0px; border-color: black;" id="fourteen">
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td class="house3"> </td>
+			<td class="house3"> </td>
+			<td class="house3"> </td>
+			<td class="house3"> </td>
+			<td class="house3"> </td>
+			<td class="house3"> </td>
+			<td class ="way_player3" id="A30"> </td>
+			<td class="way_player3" id="A728"> </td>
+			<td class="way" id="A26"> </td>
+			<td class="house4"> </td>
+			<td class="house4"> </td>
+			<td class="house4"> </td>
+			<td class="house4"> </td>
+			<td class="house4"> </td>
+			<td class="house4"> </td>
+
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+		</tr>
+		<tr style="border: 0px; border-color: black;" id="fifteen">
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td class="house3"> </td>
+			<td class="house3"> </td>
+			<td class="house3"> </td>
+			<td class="house3"> </td>
+			<td class="house3"> </td>
+			<td class="house3"> </td>
+			<td class ="way" id="A29"> </td>
+			<td class="core_entrance" id="A28"> </td>
+			<td class="way" id="A27"> </td>
+			<td class="house4"> </td>
+			<td class="house4"> </td>
+			<td class="house4"> </td>
+			<td class="house4"> </td>
+			<td class="house4"> </td>
+			<td class="house4"> </td>
+
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+			<td id="empty"></td>
+		</tr>
+		
+	</table>
+
+
+<div>
+<button onclick= "Roll()"> ROLL THE DICE </button>
+</div>
+
+
+	
+<script src="E:\Web\Ludo.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,81 @@
+.house1{
+	width: 40px; 
+	height: 30px; 
+	background-color: #009900; 
+}
+
+.house2{
+	width: 40px; 
+	height: 30px; 
+	background-color: #CC9900; 
+}
+
+.way{
+	width: 40px; height: 30px; background-color: rgb(136,136,136); border: 0.5px solid black; border-collapse: collapse;
+}
+
+.core_entrance{
+	width: 40px; height: 30px; background-color: rgb(136,136,136); border: 0.5px solid black; border-collapse: collapse;
+}
+
+.in_way{
+width: 40px; height: 30px; background-color: #CC9900; border: 0.5px solid black;	
+}
+
+#empty{
+width: 40px; height: 30px; background-color: white; 	
+}
+
+.way_player2{
+	width: 40px; height: 30px; background-color: #009900 ; border: 0.5px solid black; border-collapse: collapse;
+}
+
+.house3{
+	width: 40px; 
+	height: 30px; 
+	background-color: #CC0000; 
+}
+
+.house4{
+	width: 40px; 
+	height: 30px; 
+	background-color: #0066FF; 
+}
+
+.way_player3{
+	width: 40px; height: 30px; background-color: #CC0000 ; border: 0.5px solid black; border-collapse: collapse;
+}
+
+.way_player4{
+	width: 40px; height: 30px; background-color: #0066FF ; border: 0.5px solid black; border-collapse: collapse;	
+}
+
+.player1_coin{
+	width: 40px; 
+	height: 30px; 
+	background-color: #ffff1a;
+}
+
+.player2_coin{
+	width: 40px; 
+	height: 30px; 
+	background-color: #33ff33;
+}
+
+.player3_coin{
+	width: 40px; 
+	height: 30px; 
+	background-color: #ff6347;
+}
+
+.player4_coin{
+	width: 40px; 
+	height: 30px; 
+	background-color: #7070db;
+}
+
+
+
+
+
+
